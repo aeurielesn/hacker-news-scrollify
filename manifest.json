@@ -1,6 +1,6 @@
 {
     "name": "Hacker News Scrollify",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "__MSG_description__",
     "default_locale": "en",
     "icons": {
