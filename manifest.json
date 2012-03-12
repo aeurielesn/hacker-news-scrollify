@@ -1,0 +1,37 @@
+{
+    "name": "Hacker News Scrollify",
+    "version": "0.0.0",
+    "description": "__MSG_description__",
+    "default_locale": "en",
+    "icons": {
+        "48" : "assets/img/icons/48.png",
+        "128": "assets/img/icons/128.png"
+    },
+    "permissions": [
+        "http://news.ycombinator.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "http://news.ycombinator.com/",
+                "http://news.ycombinator.com/news",
+                "http://news.ycombinator.com/news2",
+                "http://news.ycombinator.com/saved*",
+                "http://news.ycombinator.com/submitted*",
+                "http://news.ycombinator.com/newcomments*",
+                "http://news.ycombinator.com/ask*",
+                "http://news.ycombinator.com/newest*"
+            ],
+            "css": [
+                "assets/css/style.css"
+            ],
+            "js": [
+                "assets/js/jquery.min.js",
+                "assets/js/depagify.jquery.js",
+                "assets/js/news.ycombinator.com.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "update_url": "https://github.com/aeurielesn/hacker-news-scrollify/raw/master/updates.xml"
+}
