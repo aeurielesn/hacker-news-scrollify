@@ -8,4 +8,4 @@ Installation
 
 Get it from the [Downloads][1] area.
 
-	[1]: https://github.com/aeurielesn/hacker-news-scrollify/downloads
+  [1]: https://github.com/aeurielesn/hacker-news-scrollify/downloads
